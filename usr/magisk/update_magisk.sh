@@ -171,7 +171,6 @@ extract_payloads() {
     elif [ -n "$stub_apk_entry" ]; then
         extract_raw "$stub_apk_entry" "$DIR/stub"
         make_xz "$DIR/stub"
-        mv -f "$DIR/stub.xz" "$DIR/stub.xz"
     fi
 }
 
