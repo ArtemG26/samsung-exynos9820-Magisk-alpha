@@ -60,5 +60,5 @@ then
 	rm "$DIR/magisk.zip"
 	touch "$DIR/initramfs_list"
 else
-	echo "Nothing to be done: Magisk version $nver"
+	echo "Nothing to be done: Magisk version $nver" 
 fi
